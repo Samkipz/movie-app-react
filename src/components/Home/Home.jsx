@@ -1,8 +1,14 @@
 import React from 'react'
+import './Home.scss'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='home'>
+      <div className='movie-series'>
+        <div>Movies</div>
+        <div>Series</div>
+      </div>
+    </div>
   )
 }
 

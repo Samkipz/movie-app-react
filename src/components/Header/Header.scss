@@ -1,10 +1,40 @@
 @import "../../common/colors.scss";
 
 .header{
-    width: 100vw;
+    // width: 100vw;
     background-color: $secondary-color;
     height: 72px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding:0 5vw;
+    width: 90vw;
+}
+
+.logo-image, img{
+    padding-top: 2px;
+    width: 58px;
+    height: 58px;
+}
+
+.web-title{
+    padding-top: 2px;
+    font-size: 40px;
+}
+
+.account-area{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    img{
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+    }
+    .my-account{
+        display: flex;
+        gap: 8px;
+        align-items: end;
+    }
 }
