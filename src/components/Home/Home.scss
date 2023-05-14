@@ -1,0 +1,12 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    .movie-series{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        width: 100vw;
+        padding: 10px 0;
+    }
+}
